@@ -72,12 +72,12 @@ function App() {
                 </div>
               </div>
 
-              {/* Decorative circles */}
+              
               <div className="absolute bottom-0 right-0 w-48 h-48 bg-[#6F5CFA] rounded-full translate-x-16 translate-y-16"></div>
               <div className="absolute bottom-0 right-0 w-32 h-32 bg-[#FF8FAB] rounded-full translate-x-8 translate-y-8"></div>
             </div>
 
-            {/* Right Panel */}
+            
             <div className="p-8 md:p-12 md:flex-1">
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
